@@ -1,0 +1,12 @@
+# G. scandens Beak Shape Analysis
+## Overview
+Many of the important observations that led Charles Darwin to develop the theory of evolution were made in the Galapagos archipelago, particularly in the study of the small birds, called finches, that inhabit them. The islands are ideal for studying evolution because they are isolated so they do not have complicated effects from interactions with other species including humans. Furthermore, some of them are small, so entire populations can be monitored on a given island. Every year since 1973, Peter and Rosemary Grant of Princeton University have been spending several months of the year on the tiny volcanic cinder cone island of Daphne Major in the Galapagos. This island has two dominant ground finch species, Geospiza fortis and Geospiza scandens. The Grants have monitored them every year, tagging them, making physiological measurements, taking samples for genetic sequencing, and more. In 2014, they published a book entitled “40 Years of Evolution: Darwin’s Finches on Daphne Major Island”. They generously placed all of their data on the Dryad data repository making it free for anyone to use. 
+The Grants have noticed some changes of beak geometry of the finch species Geospiza scandens depending on the types of seeds available on the island, and they also noticed that there was some interbreeding with another major species on Daphne Major, Geospiza fortis. These effects can lead to changes in the species over time.
+## Goals
+This project works with the Grants’ measurements of the beak length and beak depth to investigate how the beak shape of Geospiza scandens has changed from 1975 to 2012. Data obtained from Dryad Digital Repository, http://dx.doi.org/10.5061/dryad.g6g3h, which has been processed by DataCamp. 
+## Hypothesis Tests
+This project performs several hypothesis tests regarding changes in the shape of the Geospiza scandens bird’s beak :
+1.	Changes of beak depth, using Independent T-Test to determines whether there is a statistically significant difference between the beak depth's means in the year 1975 and 2012.
+2.	Changes of beak length, using Independent T-Test to determines whether there is a statistically significant difference between the beak length's means in the year 1975 and 2012.
+3.	Changes of beak depth to length ratio, using Welch's T-Test, or Unequal Variances T-Test, to determines whether there is a statistically significant difference between the beak depth to length ratio's means in the year 1975 and 2012.
+## Results
